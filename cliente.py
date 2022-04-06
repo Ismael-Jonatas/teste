@@ -33,7 +33,7 @@ class Cliente():
           print(pickle.loads(data))
       except:
         pass
-
+#testaannndddooo
 #função para enviar as mensagens
   def send_msg(self, msg):
     self.sock.send(pickle.dumps(msg))
